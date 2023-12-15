@@ -3,10 +3,15 @@ A wrapper built on top of the official SWI-Prolog Python interface to iteract wi
 
 ## Getting Started
 Follow the directions at www.swi-prolog.org/packages/mqi/prologmqi.html to install both swipl and SWIPL's Machine Query Interface
+
 ```console
 pip install functional-swipl-interface
 ```
+
 ## Usage Example
+
+copy `example/email_validation.pro` to your local directory
+
 ```python
 import functional-swipl-interface as SWIPL
 print(SWIPL()\
