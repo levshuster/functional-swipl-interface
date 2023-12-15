@@ -1,14 +1,14 @@
 # Functional Swipl Interface
 A wrapper built on top of the official SWI-Prolog Python interface to iteract with prolog through python using a functional programming paradigm. This wrapper is specifically designed to facilitate programmers with no prior knowledge of logic programming to interact with Prolog
 
-# Usage Example
+## Getting Started
+Follow the directions at www.swi-prolog.org/packages/mqi/prologmqi.html to install both swipl and SWIPL's Machine Query Interface
 ```console
 pip install functional-swipl-interface
 ```
-
+## Usage Example
 ```python
 import functional-swipl-interface as SWIPL
-
 print(SWIPL()\
     .load_file("email_validation.pro")\
     .validate_queries("is_valid_email", [
